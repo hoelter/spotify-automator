@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+crontab -l | { cat; echo "0 9 * * 1,5 /path-to-directory/run-spotify-automator"; } | crontab -
+
