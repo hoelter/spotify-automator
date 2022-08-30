@@ -1,2 +1,3 @@
 .cache
-spotify-automator.log
+.env
+cron-log.log

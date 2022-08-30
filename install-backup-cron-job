@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 
-crontab -l | { cat; echo "0 9 * * 1,5 /path-to-directory/run-spotify-automator"; } | crontab -
+poetry=$(which poetry)
+curr_dir=$(dirname "$0")
+
+crontab -l | { cat; echo "0 9 * * 1,5 cd $curr_dir && $poetry run python3 backup-weekly-playlists.py >> cron-log.log 2>&1"; } | crontab -
 

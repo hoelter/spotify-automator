@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-
-poetry run python3 backup-weekly-playlists.py
-

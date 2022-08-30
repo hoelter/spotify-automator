@@ -7,6 +7,7 @@ authors = ["Christopher Hoelter <git@christopherhoelter.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 spotipy = "^2.20.0"
+python-dotenv = "^0.20.0"
 
 [tool.poetry.dev-dependencies]
 

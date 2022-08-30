@@ -5,6 +5,9 @@ import spotipy
 import json
 from datetime import datetime
 from spotipy.oauth2 import SpotifyOAuth
+from dotenv import load_dotenv
+
+load_dotenv()
 
 prefix = ''
 target_playlist_name = ''
