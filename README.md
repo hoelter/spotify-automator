@@ -1,4 +1,4 @@
-# Spotify Automator
+# Spotify Playlist Backup Script
 
 This is python script/project that is designed to run at certain times to backup the discover weekly and release radar playlists on spotify.
 
